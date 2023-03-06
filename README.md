@@ -29,7 +29,7 @@ Os usuários devem ser capazes de:
 
 ## Minha caminhada
 
-- [ ] Preparativos da pagina HTML e CSS para mobile
+- [x] Preparativos da pagina HTML e CSS para mobile
 - [ ] Barra de navegação
 - [ ] Primeira seção: Banner
 - [ ] Segunda seção: Notícias
