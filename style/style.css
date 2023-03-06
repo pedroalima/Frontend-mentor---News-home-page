@@ -1,0 +1,17 @@
+@import url("/style/navbar.css");
+
+:root {
+    --fonte-principal: "inter";
+    --laranja-claro: hsl(35, 77%, 62%);
+    --vermelho-claro: hsl(5, 85%, 63%);
+    --branco: hsl(36, 100%, 99%);
+    --cinza-azulado: hsl(233, 8%, 79%);
+    --cinza-escuro-azulado: hsl(236, 13%, 42%);
+    --azul-muito-escuro: hsl(236, 13%, 42%);
+}
+
+body {
+    font-size: 15px;
+    font-family: var(--fonte-principal);
+    margin: 2em 1em;
+}
