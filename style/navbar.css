@@ -2,4 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2em;
 }
+
+.logo__navbar {
+    width: 12vw;
+}
+

@@ -1,4 +1,5 @@
 @import url("/style/navbar.css");
+@import url("/style/banner.css");
 
 :root {
     --fonte-principal: "inter";
@@ -7,7 +8,7 @@
     --branco: hsl(36, 100%, 99%);
     --cinza-azulado: hsl(233, 8%, 79%);
     --cinza-escuro-azulado: hsl(236, 13%, 42%);
-    --azul-muito-escuro: hsl(236, 13%, 42%);
+    --azul-muito-escuro: hsl(240, 100%, 5%);
 }
 
 body {
