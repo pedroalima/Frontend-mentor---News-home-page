@@ -23,15 +23,14 @@ Os usuários devem ser capazes de:
 ### Screenshot
 
 <html>
-    <img src="" width="200">
-    <img src="" width="600">
+    <img src="./img/screenshot.png" width="300">
 </html>
 
 ## Minha caminhada
 
 - [x] Preparativos da pagina HTML e CSS para mobile
 - [ ] Barra de navegação
-- [ ] Primeira seção: Banner
+- [x] Primeira seção: Banner
 - [ ] Segunda seção: Notícias
 - [ ] Terceira seção: Mais vistos
 - [ ] Responsividade 1440px
