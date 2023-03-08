@@ -1,5 +1,5 @@
 # Frontend Mentor - News Home Page
-
+Projeto de uma home page feita em HTML, CSS e JavaScript.
 ## Índice
 
 - [Visão geral](#visao-geral)
@@ -29,10 +29,10 @@ Os usuários devem ser capazes de:
 ## Minha caminhada
 
 - [x] Preparativos da pagina HTML e CSS para mobile
-- [ ] Barra de navegação
+- [x] Barra de navegação
 - [x] Primeira seção: Banner
-- [ ] Segunda seção: Notícias
-- [ ] Terceira seção: Mais vistos
+- [x] Segunda seção: News
+- [ ] Terceira seção: Top 3 news
 - [ ] Responsividade 1440px
 - [ ] Elementos JavaScript
 
