@@ -1,5 +1,6 @@
 @import url("/style/navbar.css");
 @import url("/style/banner.css");
+@import url("/style/news.css");
 
 :root {
     --fonte-principal: "inter";
@@ -15,4 +16,10 @@ body {
     font-size: 15px;
     font-family: var(--fonte-principal);
     margin: 2em 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12vw;
 }
