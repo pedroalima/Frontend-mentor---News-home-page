@@ -32,14 +32,15 @@ Os usuários devem ser capazes de:
 - [x] Barra de navegação
 - [x] Primeira seção: Banner
 - [x] Segunda seção: News
-- [ ] Terceira seção: Top 3 news
+- [x] Terceira seção: Top 3 news
 - [ ] Responsividade 1440px
 - [ ] Elementos JavaScript
 
 ### Propriedades
 
 - Mobile-first
-- Semântica HTML5
+- Semântica HTML
+- CSS BEM
 - CSS Flexbox
 - CSS Grid
 - CSS Reaproveitável, limpo e flexível

@@ -1,0 +1,36 @@
+.lista__top3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.item-lista__top3 {
+    display: flex;
+    column-gap: 1.5em;
+}
+
+.container__item-list__top3 {
+    width: 59vw;
+}
+
+.imagem__top3 {
+    width: 25vw;
+}
+
+.titulo__top3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: var(--cinza-azulado);
+}
+
+.subtitulo__top3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--azul-muito-escuro);
+    padding: 0.8em 0;
+}
+
+.descricao__top3 {
+    color: var(--cinza-escuro-azulado);
+    line-height: 24px;
+}

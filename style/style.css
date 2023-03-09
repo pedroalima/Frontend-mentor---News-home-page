@@ -1,6 +1,7 @@
 @import url("/style/navbar.css");
 @import url("/style/banner.css");
 @import url("/style/news.css");
+@import url("/style/top3.css");
 
 :root {
     --fonte-principal: "inter";
