@@ -15,13 +15,25 @@
     <title>News Home Page</title>
 </head>
 <body>
-    <header class="navbar">
-        <img src="/img/logo.svg" class="logo__navbar" alt="Imagem da logo">
-        <img src="/img/icon-menu.svg" class="menu__navbar alt="Imagem de menu">
+    <header>
+        <nav class="navbar">
+            <img src="/img/logo.svg" class="logo__navbar" alt="Imagem da logo">
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__link">New</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__link">Popular</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__link">Trending</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__link">Categories</a></li>
+            </ul>
+            <img src="/img/icon-menu.svg" class="menu__navbar" alt="Imagem de menu">
+        </nav>
     </header>
     <main>
         <section class="banner">
-            <img src="/img/image-web-3-mobile.jpg" class="imagem__banner" alt="Imagem de formas geométricas coloridas">
+            <picture>
+                <source media="(min-width:1340px)" srcset="/img/image-web-3-desktop.jpg">
+                <img src="/img/image-web-3-mobile.jpg" class="imagem__banner" alt="Imagem de formas geométricas coloridas">
+            </picture>
             <div class="container__banner">
                 <h1 class="titulo__banner">The Bright Future of Web 3.0?</h1>
                 <p class="descricao__banner">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.                But is it really fulfilling its promise?</p>

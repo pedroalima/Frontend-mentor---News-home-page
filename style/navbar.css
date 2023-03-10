@@ -9,3 +9,29 @@
     width: 12vw;
 }
 
+.nav__list {
+    display: none;
+}
+
+@media screen and (min-width: 1340px) {
+    .menu__navbar {
+        display: none;
+    }
+    
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        color: var(--cinza-escuro-azulado);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .logo__navbar {
+        width: 4vw;
+    }
+}

@@ -17,10 +17,17 @@ body {
     font-size: 15px;
     font-family: var(--fonte-principal);
     margin: 2em 1em;
+    background: var(--branco);
 }
 
 main {
     display: flex;
     flex-direction: column;
     row-gap: 12vw;
+}
+
+@media screen and (min-width: 1340px) {
+    body {
+        padding: 3vw 10vw;
+    }
 }
