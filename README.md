@@ -24,6 +24,7 @@ Os usuários devem ser capazes de:
 
 <html>
     <img src="./img/screenshot.png" width="300">
+    <img src="./img/menu-mobile.png" width="300">
 </html>
 
 ## Minha caminhada
@@ -34,7 +35,7 @@ Os usuários devem ser capazes de:
 - [x] Segunda seção: News
 - [x] Terceira seção: Top 3 news
 - [ ] Responsividade 1440px
-- [ ] Elementos JavaScript
+- [x] Menu mobile com JavaScript
 
 ### Propriedades
 
@@ -51,11 +52,25 @@ Os usuários devem ser capazes de:
 Trechos de destaque:
 
 ```html
-
+    <div class="menu__mobile-icon">
+        <button onclick="menuShow()"><img src="/img/icon-menu.svg" class="icon" alt="Imagem de menu"></button>
+    </div>
 ```
 
-```css
+```javascript
+function menuShow(){
+    const menuMobile = document.querySelector('.menu__mobile');
 
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "img/icon-menu.svg";
+    }
+    else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src = "img/icon-menu-close.svg";
+    }
+
+}
 ```
 
 ### Recursos
