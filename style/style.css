@@ -28,6 +28,30 @@ main {
 
 @media screen and (min-width: 1340px) {
     body {
-        padding: 3vw 10vw;
+        padding: 3vw 6vw;
+    }
+
+    main {
+        display: grid;
+        grid-template-areas: 
+        "banner banner news"
+        "banner banner news"
+        "top3 top3 top3";
+        row-gap: 3rem;
+        column-gap: 0.1rem;
+        grid-template-columns: repeat(3, 33.2%);
+        grid-template-rows: repeat(2, 35%) 22%;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .news {
+        grid-area: news;
+    }
+
+    .top3 {
+        grid-area: top3;
     }
 }

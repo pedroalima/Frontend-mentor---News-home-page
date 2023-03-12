@@ -34,3 +34,21 @@
     color: var(--cinza-escuro-azulado);
     line-height: 24px;
 }
+
+@media screen and (min-width: 1440px) {
+    .lista__top3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .container__item-list__top3 {
+        width: 15.9vw;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .imagem__top3 {
+        width: 10vw;
+    }
+}

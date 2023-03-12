@@ -32,7 +32,7 @@
     letter-spacing: 3px;
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1440px) {
     .imagem__banner {
         max-height: 22vw;
     }
@@ -40,7 +40,7 @@
     .container__banner {
         display: grid;
         max-width: 52vw;
-        align-items:end;
+        align-items: center;
     }
 
     .container__banner h1 {
@@ -50,8 +50,11 @@
     }
 
     .container__banner p {
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 1/2;
+        line-height: 31px;
+        width: 28vw;
+        font-size: 18px;
     }
 
     .container__banner a {
