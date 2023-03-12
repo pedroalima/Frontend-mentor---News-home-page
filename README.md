@@ -23,8 +23,9 @@ Os usuários devem ser capazes de:
 ### Screenshot
 
 <html>
-    <img src="./img/screenshot.png" width="300">
     <img src="./img/menu-mobile.png" width="300">
+    <img src="./img/screenshot-mobile.png" width="300">
+    <img src="./img/screenshot-desktop.png" width="720">
 </html>
 
 ## Minha caminhada
@@ -34,8 +35,9 @@ Os usuários devem ser capazes de:
 - [x] Primeira seção: Banner
 - [x] Segunda seção: News
 - [x] Terceira seção: Top 3 news
-- [ ] Responsividade 1440px
 - [x] Menu mobile com JavaScript
+- [x] Responsividade 1440px
+- 
 
 ### Propriedades
 
