@@ -61,4 +61,8 @@
         grid-column: 2/3;
         grid-row: 2/3;
     }
+
+    .botao__banner:hover {
+        background: var(--azul-muito-escuro);
+    }
 }

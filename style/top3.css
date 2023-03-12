@@ -35,6 +35,11 @@
     line-height: 24px;
 }
 
+.link-list__top3 {
+    text-decoration: none;
+    color: var(--azul-muito-escuro);
+}
+
 @media screen and (min-width: 1440px) {
     .lista__top3 {
         display: flex;
@@ -50,5 +55,9 @@
     
     .imagem__top3 {
         width: 10vw;
+    }
+
+    .link-list__top3:hover {
+        color: var(--vermelho-claro);
     }
 }
